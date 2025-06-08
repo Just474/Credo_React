@@ -1,7 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import Header from "./components/Header/Header";
+import Main from "./components/Pages/Main/Main";
+import Footer from "./components/Footer/Footer";
+import Consultation from "./components/Pages/Consultation/Consultation";
+import Page404 from "./components/Pages/Page404/Page404";
+import Catalog from "./components/Pages/Catalog/Catalog";
+import News from "./components/Pages/News/News";
+import SingleNews from "./components/Pages/SingleNews/SingleNews";
+import Cart from "./components/Pages/Cart/Cart";
 
-function App() {
+
+export default function App() {
   return (
         <BrowserRouter>
             <Header/>
@@ -19,4 +29,3 @@ function App() {
   );
 }
 
-export default App;
