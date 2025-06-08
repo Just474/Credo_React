@@ -1,3 +1,35 @@
+@use "./styles/global.scss" as global;
+@use "./styles/variables.scss" as vars;
+
+@use "../node_modules/swiper/swiper-bundle.min.css";
+
+// Компоненты
+@use "components/Header/header.scss" as header;
+@use "components/Footer/footer.scss" as footer;
+
+@use "components/Slider/slider.scss" as slider;
+@use "components/SectionStrengths/sectionStrength.scss" as strengths;
+@use "components/SectionFAQ/sectionFAQ" as faq;
+@use "components/SectionWhere/sectionWhere.scss" as where;
+@use "components/Pages/Main/main.scss" as main;
+
+@use "components/Pages/Consultation/consultation.scss" as consultation;
+
+@use "components/Filter/filter" as filter;
+@use "components/Pages/Catalog/catalog.scss" as catalog;
+
+@use "components/Pages/News/news";
+@use "components/Pages/SingleNews/singleNews";
+
+@use "components/Pages/Cart/cart.scss" ;
+@use "components/ModuleWindowCart/moduleWindowCart.scss" ;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
