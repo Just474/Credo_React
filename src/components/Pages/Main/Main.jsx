@@ -1,11 +1,11 @@
 import React from "react";
-import Slider from "../Slider/Slider";
-import SectionStrengths from "../SectionStrengths/Serction-strengths";
-import SectionFAQ from "../SectionFAQ/SectionFAQ";
-import SectionWhere from "../SectionWhere/SectionWhere";
+import Slider from "../../Slider/Slider";
+import SectionStrengths from "../../SectionStrengths/Serction-strengths";
+import SectionFAQ from "../../SectionFAQ/SectionFAQ";
+import SectionWhere from "../../SectionWhere/SectionWhere";
 
 
-export default function Main(){
+export default function Main() {
 
 
     return (
