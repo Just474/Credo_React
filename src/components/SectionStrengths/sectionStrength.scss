@@ -21,3 +21,26 @@
   }
 
 }
+
+
+@media (max-width: 700px) {
+  .container-strengths{
+    padding-top: 10px;
+    gap: 10px;
+
+    .strength{
+      max-width: 300px;
+      gap: 10px;
+
+      img{
+        width: 80px;
+      }
+
+      p{
+        height: 70px;
+        width: 150px;
+      }
+    }
+
+  }
+}

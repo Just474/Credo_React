@@ -42,3 +42,32 @@
   }
 
 }
+
+
+
+
+@media (max-width: 700px) {
+  #modal-root {
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
+
+  .wrapper--module-window {
+    height: 100%;
+    width: 100%;
+
+    .form {
+      gap: 10px;
+      padding: 40px 70px;
+      max-width: 95%;
+
+      textarea{
+        min-width: 100px ;
+      }
+
+    }
+
+  }
+
+}

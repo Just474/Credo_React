@@ -1,4 +1,4 @@
-footer{
+footer {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -7,13 +7,45 @@ footer{
   width: 100%;
   background-color: var(--secondary--bg-color);
 
-  .footer--info-block{
+  .footer--info-block {
     display: flex;
     flex-direction: column;
     gap: 5px;
 
-    a{
+    a {
       font-size: 20px;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+
+}
+
+
+@media (max-width: 700px) {
+
+
+  footer {
+    gap: 10px;
+    padding: 30px 0 0 0;
+    .footer--info-block {
+      text-align: center;
+      height: 110px;
+      gap: 5px;
+      justify-content: flex-start !important;
+
+      h5{
+        font-size: 12px !important;
+      }
+
+      a {
+        font-size: 10px !important;
+      }
+
+      p {
+        font-size: 10px !important;
+      }
     }
   }
 }

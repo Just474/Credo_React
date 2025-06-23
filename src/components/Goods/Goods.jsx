@@ -25,6 +25,62 @@ export default function Goods(filterValue) {
                             <button className={'main-btn'}>Купить</button>
                         </div>
                     </div>
+
+                    <div className="good accountant">
+                        <img src={good} alt="Изображение товара"/>
+                        <div className="container-info">
+                            <h5>1С Бухгалтерия 8. Базовая</h5>
+                            <p>Предназначена для автоматизации бухгалтерского и налогового учета, включая подготовку
+                                обязательной (регламентированной) отчетности в организации. Эта версия подходит только
+                                для однопользовательской работы.</p>
+                        </div>
+                        <div className="container-price ">
+                            <h5>5 000 руб.</h5>
+                            <button className={'main-btn'}>Купить</button>
+                        </div>
+                    </div>
+
+                    <div className="good accountant">
+                        <img src={good} alt="Изображение товара"/>
+                        <div className="container-info">
+                            <h5>1С Бухгалтерия 8. Базовая</h5>
+                            <p>Предназначена для автоматизации бухгалтерского и налогового учета, включая подготовку
+                                обязательной (регламентированной) отчетности в организации. Эта версия подходит только
+                                для однопользовательской работы.</p>
+                        </div>
+                        <div className="container-price ">
+                            <h5>5 000 руб.</h5>
+                            <button className={'main-btn'}>Купить</button>
+                        </div>
+                    </div>
+
+                    <div className="good accountant">
+                        <img src={good} alt="Изображение товара"/>
+                        <div className="container-info">
+                            <h5>1С Бухгалтерия 8. Базовая</h5>
+                            <p>Предназначена для автоматизации бухгалтерского и налогового учета, включая подготовку
+                                обязательной (регламентированной) отчетности в организации. Эта версия подходит только
+                                для однопользовательской работы.</p>
+                        </div>
+                        <div className="container-price ">
+                            <h5>5 000 руб.</h5>
+                            <button className={'main-btn'}>Купить</button>
+                        </div>
+                    </div>
+
+                    <div className="good accountant">
+                        <img src={good} alt="Изображение товара"/>
+                        <div className="container-info">
+                            <h5>1С Бухгалтерия 8. Базовая</h5>
+                            <p>Предназначена для автоматизации бухгалтерского и налогового учета, включая подготовку
+                                обязательной (регламентированной) отчетности в организации. Эта версия подходит только
+                                для однопользовательской работы.</p>
+                        </div>
+                        <div className="container-price ">
+                            <h5>5 000 руб.</h5>
+                            <button className={'main-btn'}>Купить</button>
+                        </div>
+                    </div>
                     <div className="good software">
                         <img src={good} alt="Изображение товара"/>
                         <div className="container-info">

@@ -74,3 +74,34 @@
     }
   }
 }
+
+
+
+@media (max-width: 1000px){
+
+}
+
+
+@media (max-width: 700px) {
+  .sectionFAQ {
+    gap: 10px;
+
+    p {
+      max-width: 800px;
+      text-align: center;
+    }
+
+    .container-questions {
+      gap: 10px;
+      width: 360px;
+      padding-bottom: 10px;
+
+
+
+        .container-icon {
+          width: 15px !important;
+        }
+
+      }
+    }
+  }

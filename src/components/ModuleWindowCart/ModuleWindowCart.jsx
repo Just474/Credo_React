@@ -18,7 +18,6 @@ export default function ModalWindowCart({isOpen, onClose, children}) {
 
     function handleSubmit(e) {
         e.preventDefault();
-        console.log(form);
     }
 
     if (!isOpen) return null;

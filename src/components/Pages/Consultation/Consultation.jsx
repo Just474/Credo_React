@@ -47,10 +47,10 @@ export default function Consultation() {
                         />
                     </div>
                     <div className="container-buttons">
-                        <button type={"submit"} className='main-btn'>Отправить</button>
                         <NavLink to='/'>
                             <button type={'button'} className='secondary-btn'>На главную</button>
                         </NavLink>
+                        <button type={"submit"} className='main-btn'>Отправить</button>
                     </div>
                 </form>
             </div>
