@@ -1,0 +1,43 @@
+.element-animation {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.element-animation.element-show {
+  opacity: 1;
+  transition: all 1.5s;
+  transform: translateY(0%);
+}
+
+.left-show{
+  opacity: 0;
+  transform: translateX(-200px)
+}
+
+.left-show.element-show{
+  opacity: 1;
+  transition: all 1.5s;
+  transform: translateX(0);
+}
+
+.down-show{
+  opacity: 0;
+  transform: translateY(20px)
+}
+
+.down-show.element-show{
+  opacity: 1;
+  transition: all 1.5s;
+  transform: translateY(0);
+}
+
+.up-show{
+  opacity: 0;
+  transform: translateY(-20px)
+}
+
+.up-show.element-show{
+  opacity: 1;
+  transition: all 1.5s;
+  transform: translateY(0);
+}

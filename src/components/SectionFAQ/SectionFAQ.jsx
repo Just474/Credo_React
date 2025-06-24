@@ -5,6 +5,10 @@ import horizontal from "../../assets/icons/horizontal.svg";
 
 export default function SectionFAQ() {
 
+
+
+
+
   const questions = [
       {
           question: "Как начать работу с вашей компанией?",

@@ -24,6 +24,10 @@
 @use "components/Pages/Cart/cart.scss" ;
 @use "components/ModuleWindowCart/moduleWindowCart.scss" ;
 
+@use "styles/animation.scss" as animation;
+
+
+
 *{
   margin: 0;
   padding: 0;

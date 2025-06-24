@@ -6,15 +6,14 @@ export default function SingleNews() {
     return (
         <div className="wrapper">
             <div className="wrapper-news">
-                <h2>В МЧС предупредили об опасности езды на электросамокатах в дождь</h2>
+                <h2>Правительство Калининградской области и фирма "1С" расширяют сотрудничество
+                    в области информационных технологий</h2>
+                <p>Правительство Калининградской области и фирма "1С" заключили соглашение о сотрудничестве. Документ подписали губернатор Алексей Беспрозванных и директор фирмы "1С" Борис Нуралиев. Соглашение заключено в целях усиления подготовки ИТ-кадров в образовательных учреждениях.</p>
+                <p>"1С" разработала целостную программу непрерывной подготовки кадров для обеспечения потребностей цифровой экономики. Она включает в себя внедрение в программы дополнительного образования школьников обучение языку программирования 1С, погружение студентов в технологии "1С", предметные области бизнеса и госуправления, а также помощь в развитии профессиональной среды для молодых специалистов.</p>
+                <p>Помимо подготовки ИТ-кадров, стороны договорились продолжить совместную методическую работу по оптимизации процессов финансово-хозяйственной деятельности учреждений Калининградской области.</p>
+                <p>"Решения 1С применяются во многих организациях и на предприятиях Калининградской области. Взаимодействие в рамках подписанного соглашения будет способствовать дальнейшей цифровизации региона и позволит нам реализовывать социально значимые проекты с использованием передовых технологий", - прокомментировал соглашение губернатор Алексей Беспрозванных.  </p>
+                <p>"Одно из важных для нас направлений сотрудничества - развитие информационно-образовательной среды для подготовки квалифицированных ИТ-кадров. Рассчитываем, что наше взаимодействие будет способствовать усилению системы подготовки профильных специалистов и поможет усилить кадровый потенциал, необходимый для внедрения и развития передовых цифровых решений в регионе", - отметил директор фирмы "1С" Борис Нуралиев.</p>
                 <img src={news} alt="Изображения новости"/>
-                <p>The Democratic Party is at a crossroads. After a series of tough losses in 2022, the party is rethinking its strategy. The party's major factions have different ideas about what went wrong and how to fix it. Here's a guide to the main arguments, and what they mean for the party's future.</p>
-                <img src={news} alt="Изображения новости"/>
-                <p>The Democratic Party is at a crossroads. After a series of tough losses in 2022, the party is rethinking its strategy. The party's major factions have different ideas about what went wrong and how to fix it. Here's a guide to the main arguments, and what they mean for the party's future.</p>
-                <img src={news} alt="Изображения новости"/>
-                <p>The Democratic Party is at a crossroads. After a series of tough losses in 2022, the party is rethinking its strategy. The party's major factions have different ideas about what went wrong and how to fix it. Here's a guide to the main arguments, and what they mean for the party's future.</p>
-                <img src={news} alt="Изображения новости"/>
-                <p>The Democratic Party is at a crossroads. After a series of tough losses in 2022, the party is rethinking its strategy. The party's major factions have different ideas about what went wrong and how to fix it. Here's a guide to the main arguments, and what they mean for the party's future.</p>
             </div>
         </div>
     )

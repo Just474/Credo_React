@@ -12,8 +12,8 @@ export default function Slider(){
         image_path: image
     },
         {
-            title: "lorem Ipsum",
-            content: " text-Slider-container text-Slider-container text-Slider-container text-Slider-container",
+            title: "Надежность и качество",
+            content: "Более 10 лет моказываем бухгалтерские и юридические услуги, а также занимаемся продажей программного обеспечения и техническим обслуживанием компьютерной техники.",
             image_path: image
         }
     ]

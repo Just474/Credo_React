@@ -13,9 +13,11 @@ export default function Catalog() {
     }
 
 
+
+
     return (
         <>
-            <div className="wrapper-catalog">
+            <div className="wrapper-catalog ">
                 <Filter handleFilter={handleValueFromChild}/>
                 <Goods  filterValue={valueFromChild}/>
             </div>
